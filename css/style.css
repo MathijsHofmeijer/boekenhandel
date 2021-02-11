@@ -60,3 +60,49 @@ ul.topnav {
 }
   
   /*logo end*/
+
+  
+  
+  .login-form-form {
+    width: 350px;
+    height: 400px;
+    background-color: #e6e6e6;
+    border-radius: 3%;
+    box-shadow: 1px 1px gray;
+    margin-top: 5%;
+    margin-left: 43%;
+    margin-right: 50%;
+    border: solid 1px #e6e6e6;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 0 0 0 2px #cccccc; 
+  }
+  
+  
+  #formitemscontact {
+    text-align: center;
+  }
+
+  .logininput {
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    border-radius: 5%;
+    border: solid 1px #707070;
+    border-radius: 12px;
+    outline: none;
+    box-shadow: 0 0 0 2px #e6e6e6;
+    text-align: center; 
+  }
+
+  #contactknop-contact {
+    width: 200px;
+    margin: 10px;
+    height: 35px;
+    background-color: #715aff;
+    border-radius: 12px;
+    border: solid #715aff;
+    box-shadow: 0 0 0 1px #715aff;
+    outline: none;
+ }
+
