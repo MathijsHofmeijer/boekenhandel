@@ -38,6 +38,7 @@ ul.topnav {
     text-decoration: none;
     font-size: 30px;
     float: left;
+    text-shadow: #070606 3px 5px 2px;
   }
   
   ul.topnav li a:hover:not(.active) { cursor: pointer; opacity: 0.3;}
