@@ -24,7 +24,11 @@ VALUES ('IT', 'stephen king', 'Engels', '1138', 'Hard', 'Horror', 'Viking Press'
 
 SELECT * FROM boeken;
 
+DROP TABLE IF EXISTS contact;
 
-
-
-
+CREATE TABLE contact (
+    naam VARCHAR(60),
+    achternaam VARCHAR(60),
+    email VARCHAR(30),
+    vraag VARCHAR(2048)
+);
