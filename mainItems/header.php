@@ -15,11 +15,12 @@
 <header>
 <div id="navbar">
         <ul class="topnav">
-            <img id="logo" src="./images/unknown.png" alt="">
-            <li><b><a id="home" ><i class="fas fa-home"></i>  Home </a></b></li>
+            <img id="logo1" src="./images/unknown.png" alt="">
+            <li><b><a id="home" href="./index.php" ><i class="fas fa-home"></i>  Home </a></b></li>
             <li><b><a id="top10" ><i class="fas fa-list-ol"></i>  Top   10</a></b></li>
             <li><b><a id="boeken" > <i class="fas fa-list"></i >  Boeken</a></b></li>
-            <img id="logo" src="./images/unknown.png" alt="">
+            <li><b><a id="contact" href="./contact.php" > </i ><i class="fas fa-file-signature"></i>  Contact</a></b></li>
+            <img id="logo2" src="./images/unknown.png" alt="">
           </ul>
     </div>
 </header>

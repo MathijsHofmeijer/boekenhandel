@@ -48,9 +48,15 @@ ul.topnav {
   }
   /*navbar end*/
   /*logo*/
-  #logo{
+  #logo1{
       height:8vh ;
       width: 12vh;
+      margin-right: 25%;
   }
-  ul.topnav img{float: left;}
+  #logo2{
+    height:8vh ;
+    width: 12vh;
+    margin-left: 25%;
+}
+  
   /*logo end*/
