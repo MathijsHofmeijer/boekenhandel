@@ -13,7 +13,6 @@ $sth->execute();
             <th>titel</th>
             <th>schrijver</th>
             <th>taal</th>
-            <th>Achternaam</th>
             <th>paginas</th>
             <th>cover</th>
             <th>uitgever</th>

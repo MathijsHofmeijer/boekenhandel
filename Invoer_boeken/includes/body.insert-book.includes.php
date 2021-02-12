@@ -13,9 +13,19 @@ if(isset($_POST["submit"])) {
     $releaseday = empty($_POST["releaseday"]) ? "onbekend" : $_POST["releaseday"];
     $image = empty($_POST["image"]) ? "onbekend" : $_POST["image"];
 }
-$sql = "INSERT INTO boeken (titel, schrijver, taal, paginas, cover, genre, releaseday, image) 
+$sql = "INSERT INTO boeken (titel, schrijver, taal, paginas, cover, uitgever, genre, releaseday, image) 
 VALUES (:titel, :schrijver, :taal, :paginas, :cover, :uitgever, :genre, :releaseday, :image)";
-$params = array(":titel" => "$titel", ":schrijver" => "$schrijver", ":taal" => "$taal", ":paginas" => "$paginas", ":cover" => "$cover", ":uitgever" => "$uitgever", ":genre" => "$genre", ":releaseday" => "$releaseday", ":image" => "$image");
+
+$params = array(":titel" => "$titel", 
+                ":schrijver" => "$schrijver", 
+                ":taal" => "$taal", 
+                ":paginas" => "$paginas", 
+                ":cover" => "$cover", 
+                ":uitgever" => "$uitgever", 
+                ":genre" => "$genre", 
+                ":releaseday" => "$releaseday", 
+                ":image" => "$image"
+            );
 
 $sth = $db->prepare($sql);
 $sth->execute($params);
