@@ -25,7 +25,7 @@
                 <label for="genre">genre</label>
                 <input class="form-control" type="text" name="genre" require><br>
 
-                <label for="releaseday">releaseday</label>
+                <label for="releaseday">releaseday (YYYY-MM-DD)</label>
                 <input class="form-control" type="text" name="releaseday" require><br>
 
                 <label for="image">image (relative path)!</label>
